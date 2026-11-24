@@ -1,0 +1,6 @@
+Experiment,Description,Feature_Count,H1_MAE,H1_RMSE,H1_R2,H2_MAE,H2_RMSE,H2_R2,Avg_MAE,Avg_RMSE,Avg_R2
+E1,Previous Cases Only,1,7.21,11.97,0.8537,9.0,15.12,0.7673,8.11,13.55,0.8105
+E2,E1 + Case Lags & Rolling Stats,11,7.63,12.93,0.8293,9.89,17.7,0.6809,8.76,15.32,0.7551
+E3,E2 + Cyclical Seasonal Features,14,7.5,12.14,0.8496,10.61,18.28,0.6596,9.06,15.21,0.7546
+E4,E3 + Current Weather,25,6.78,10.63,0.8847,9.34,15.26,0.7629,8.06,12.94,0.8238
+E5,E4 + Lagged Weather (Full System),61,7.1,11.44,0.8665,9.17,14.22,0.7942,8.14,12.83,0.8303
